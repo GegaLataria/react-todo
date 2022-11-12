@@ -7,13 +7,17 @@ function TodoList() {
   const addTodos = (todo) => {
     const newTodos = [todo, ...todos];
     setTodos(newTodos);
-    console.log(todos);
   };
 
   return (
     <div>
       <h1>What's the plan for today?</h1>
       <TodoForm onSubmit={addTodos} />
+      <ul>
+        {todos?.map((todo, id) => (
+          <li key={id}>{todo}</li>
+        ))}
+      </ul>
     </div>
   );
 }
