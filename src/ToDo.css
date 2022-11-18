@@ -97,15 +97,35 @@ li{
 }
 
 @media only screen and (max-width: 768px){
+    .title-container{
+        border-radius: 10px;
+    }
+
     .title {
         font-size: 20px;
     }
     .text-input {
+        margin-top: 20px;
         width: 40vw;
         height: 30px;
         font-size: 18px;
     }
+    .list-button{
+        border-radius: 5px;
+        font-size: 12px;
+        padding: 5px 10px;
+    }
     .add {
         padding: 5px 20px;
+        border-radius: 5px;
+        font-size: 18px;
+    }
+    .todo-container {
+        width: 80vw;
+        padding: 5px 10px;
+        transform: translateX(-15px);
+    }
+    li {
+        font-size: 20px;
     }
 }
