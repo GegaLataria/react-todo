@@ -1,12 +1,8 @@
 import "./App.css";
-import TodoList from "./components/TodoList";
+import ToDo from "./ToDo";
 
 function App() {
-  return (
-    <div className="todo-app">
-      <TodoList />
-    </div>
-  );
+  return <ToDo />;
 }
 
 export default App;
