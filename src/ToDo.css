@@ -98,7 +98,7 @@ li{
 
 @media only screen and (max-width: 768px){
     .title-container{
-        border-radius: 10px;
+        border-radius: 11px;
     }
 
     .title {
